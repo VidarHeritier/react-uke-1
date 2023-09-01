@@ -1,0 +1,24 @@
+@font-face {
+  font-family: Oswald;
+  src: url("./assets/Oswald-VariableFont_wght.ttf");
+}
+body {
+  margin: none;
+  background-image: url("../public/patrick-tomasso-QMDap1TAu0g-unsplash.webp");
+  width: 100vw;
+  height: 100svh;
+  color: violet;
+  font-family: Oswald;
+  animation: hue 50s infinite;
+}
+.logo {
+}
+header {
+  background: black;
+  width: 20rem;
+}
+@keyframes hue {
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
