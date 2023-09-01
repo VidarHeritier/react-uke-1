@@ -1,6 +1,6 @@
 import { Header } from "./Header";
 import "./App.css";
-import { Shoes } from "./Shoes";
+import Shoes from "./Shoes";
 
 function App() {
   return (
