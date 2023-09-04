@@ -1,6 +1,6 @@
-import img1 from "../assets/Imgs/imani-bahati-LxVxPA1LOVM-unsplash.jpg";
-import img2 from "../assets/Imgs/kris-gerhard-0BKZfcamvGg-unsplash.jpg";
-import img3 from "../assets/Imgs/luis-felipe-lins-LG88A2XgIXY-unsplash.jpg";
+import img1 from "../Imgs/imani-bahati-LxVxPA1LOVM-unsplash.jpg";
+import img2 from "../Imgs/kris-gerhard-0BKZfcamvGg-unsplash.jpg";
+import img3 from "../Imgs/luis-felipe-lins-LG88A2XgIXY-unsplash.jpg";
 export const shoeInfo = [
   {
     img: img1,
