@@ -8,7 +8,7 @@
 
 body {
   margin: none;
-  background-image: url("../public/patrick-tomasso-QMDap1TAu0g-unsplash.webp");
+  background-image: url("../patrick-tomasso-QMDap1TAu0g-unsplash.webp");
   width: 100vw;
   height: 100vh;
   background-size: cover;
@@ -80,7 +80,9 @@ p {
   flex-direction: row;
   justify-content: space-around;
 }
-
+.blur {
+  backdrop-filter: blur(300px);
+}
 .shoes {
   height: 22vw;
   width: 20vw;
@@ -93,4 +95,9 @@ p {
   padding-bottom: 4vw;
   border-right: 0.1vw solid indigo;
   border-bottom: 0.1vw solid indigo;
+}
+.disclaimer {
+  font-size: 0.5vw;
+  text-align: center;
+  margin-top: 2vw;
 }
