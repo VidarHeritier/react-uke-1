@@ -13,7 +13,7 @@ export const shoeInfo = [
   },
   {
     img: img2,
-    name: "Logger Joggers",
+    shoeName: "Logger Joggers",
     brand: "Lumber",
     description: "Wooderful natural feel made for outdoor activities",
     price: "$1287$",
@@ -21,7 +21,7 @@ export const shoeInfo = [
   },
   {
     img: img3,
-    name: "Concrete Chaos",
+    shoeName: "Concrete Chaos",
     brand: "Tarmac Shoe Comp",
     description: "Thread the urban streets in ultimate comfort",
     price: "$1199$",
