@@ -2,23 +2,71 @@
   font-family: Oswald;
   src: url("./assets/Oswald-VariableFont_wght.ttf");
 }
+:root {
+  font-size: 10px;
+}
 body {
   margin: none;
   background-image: url("../public/patrick-tomasso-QMDap1TAu0g-unsplash.webp");
   width: 100vw;
   height: 100svh;
-  color: violet;
+  background-size: cover;
+  color: rgb(238, 238, 238);
   font-family: Oswald;
-  animation: hue 50s infinite;
+}
+#root {
+}
+div {
+  align-self: center;
+}
+img {
+  width: 8vw;
+  border: 0.1vw solid black;
+  margin-bottom: 1vw;
 }
 .logo {
+  width: 40%;
+  border-radius: 0;
+  border: none;
 }
-header {
-  background: black;
-  width: 20rem;
+.header {
+  align-self: center;
+  width: 20vw;
+  margin: 3vw;
+  padding: 1vw 3.5vw;
+  filter: drop-shadow(-0.15vw -0.15vw black);
+  box-shadow: -0.1vw -0.1vw black;
+  border-radius: 50vw;
+  background-color: rgba(255, 255, 255, 0.213);
+  border-right: 0.1vw solid indigo;
+  border-bottom: 0.1vw solid indigo;
 }
-@keyframes hue {
-  100% {
-    filter: hue-rotate(360deg);
-  }
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  font-size: 1.5vw;
+  align-self: center;
+  margin: 0;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.shoes {
+  height: 22vw;
+  width: 20vw;
+  padding: 3vw;
+  margin: 1vw;
+  filter: drop-shadow(-0.15vw -0.15vw black);
+  box-shadow: -0.1vw -0.1vw black;
+  border-radius: 1vw;
+  background-color: rgba(217, 215, 212, 0.213);
+
+  border-right: 0.1vw solid indigo;
+  border-bottom: 0.1vw solid indigo;
 }
