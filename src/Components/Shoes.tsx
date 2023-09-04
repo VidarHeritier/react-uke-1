@@ -29,7 +29,16 @@ export const shoeInfo = [
   },
 ];
 
-export default function ShoeCards(properties) {
+interface ShoeCardProps {
+  img: string;
+  shoeName: string;
+  brand: string;
+  description: string;
+  price: string;
+  id: string;
+}
+
+export default function ShoeCards(properties: ShoeCardProps) {
   const { img, shoeName, brand, description, price } = properties;
 
   return (
