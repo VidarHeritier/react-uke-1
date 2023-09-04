@@ -25,14 +25,14 @@ img {
   margin-bottom: 1vw;
 }
 .logo {
-  width: 40rem;
+  width: 40%;
   border-radius: 0;
   border: none;
 }
 .header {
   align-self: center;
-  width: 20vw;
-  margin: 5vw 36vw;
+  width: 15vw;
+  margin: 5vw 39vw;
   padding: 1vw 3.5vw;
   filter: drop-shadow(-0.15vw -0.15vw black);
   box-shadow: -0.1vw -0.1vw black, 1vw 1vw 2vw aliceblue;
@@ -58,19 +58,18 @@ p {
 h3 {
   text-decoration: overline;
 }
-h3 {
+h3,
+h4 {
   color: aquamarine;
 }
 h4 {
   text-decoration: underline;
-  color: rgb(58, 248, 137);
 }
-
 h5 {
-  color: rgb(68, 248, 58);
+  color: palegoldenrod;
 }
 p {
-  color: rgb(229, 248, 58);
+  color: rgb(255, 47, 47);
 }
 .cards {
   display: flex;
