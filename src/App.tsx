@@ -17,6 +17,7 @@ function App() {
                 shoeName={shoeInfo.shoeName}
                 description={shoeInfo.description}
                 price={shoeInfo.price}
+                id={shoeInfo.id}
               />
             </div>
           );
