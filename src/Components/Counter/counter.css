@@ -1,0 +1,32 @@
+button {
+  font-size: 2vw;
+  font-weight: 900;
+  border-style: none;
+  background: none;
+  color: rgb(0, 221, 255);
+}
+.counter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.213);
+  border-right: 0.1vw solid indigo;
+  border-bottom: 0.1vw solid indigo;
+  filter: drop-shadow(-0.15vw -0.15vw black);
+  box-shadow: -0.1vw -0.1vw black, 1vw 1vw 2vw aliceblue,
+    inset 2vw -2vw 5vw rgba(0, 0, 0, 0.389);
+  width: 5vw;
+  border-radius: 2vw 55vw;
+  color: white;
+  padding: 0.5vw 3vw;
+  gap: 1vw;
+  font-weight: 900;
+  font-size: 1.5vw;
+  margin-left: 10vw;
+}
+.counter p {
+  color: rgb(250, 202, 161);
+}
+.minus {
+  font-size: 3vw;
+}

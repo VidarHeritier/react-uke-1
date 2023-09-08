@@ -2,11 +2,21 @@ import { Header } from "./Components/Header";
 import "./App.css";
 import ShoeCards from "./Components/Shoes";
 import { shoeInfo } from "./Components/Shoes";
+import { Counter } from "./Components/Counter/Counter";
+import { Form } from "./Components/Form/Form";
+import { Buttons } from "./Components/Carrusel/Buttons";
 
 function App() {
   return (
     <>
-      <Header />
+      <div className="nav">
+        <Header />
+        <Form />
+      </div>
+      <div>
+        <Buttons />
+      </div>
+
       <div className="cards">
         {shoeInfo.map((shoeInfo) => {
           return (
@@ -19,6 +29,7 @@ function App() {
                 price={shoeInfo.price}
                 id={shoeInfo.id}
               />
+              <Counter />
             </div>
           );
         })}
