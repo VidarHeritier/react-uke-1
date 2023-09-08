@@ -1,7 +1,7 @@
 import img1 from "../Imgs/imani-bahati-LxVxPA1LOVM-unsplash.jpg";
 import img2 from "../Imgs/kris-gerhard-0BKZfcamvGg-unsplash.jpg";
 import img3 from "../Imgs/luis-felipe-lins-LG88A2XgIXY-unsplash.jpg";
-import { Counter } from "./Counter/Counter";
+
 export const shoeInfo = [
   {
     img: img1,
