@@ -1,6 +1,5 @@
 import "./nav.css";
 import "./login.css";
-import { Submit } from "./Submit";
 
 export function Form() {
   return (
