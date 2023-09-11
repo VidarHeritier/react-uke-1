@@ -1,10 +1,16 @@
 import "./navigate-btns.css";
 
-export function Buttons({ move, setMove, shoeInfo }) {
+interface ButtonsProps {
+  move: number;
+  setMove: React.Dispatch<React.SetStateAction<number>>;
+  shoeInfo: string[];
+}
+
+export function Buttons({ move, setMove, shoeInfo }: ButtonsProps) {
   const handleLeftClick = () => {
     const newMove = move - 1;
     if (newMove < 0) {
-      setMove(shoeInfo.length);
+      setMove(shoeInfo.length - 1);
     } else {
       setMove(newMove);
     }
@@ -12,8 +18,8 @@ export function Buttons({ move, setMove, shoeInfo }) {
 
   const handleRightClick = () => {
     const newMove = move + 1;
-    if (newMove < 0) {
-      setMove(shoeInfo.length);
+    if (newMove >= shoeInfo.length) {
+      setMove(0);
     } else {
       setMove(newMove);
     }

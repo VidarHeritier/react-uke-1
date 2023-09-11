@@ -96,7 +96,8 @@ p {
 .cards {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  gap: 2vw;
+  margin-left: 10vw;
 }
 .blur {
   backdrop-filter: blur(300px);

@@ -2,11 +2,11 @@ import "./nav.css";
 import "./login.css";
 import { useState } from "react";
 
-interface FormProps {
-  users: [];
-}
+// interface FormProps {
+//   users: [];
+// }
 
-export function Form({ users }: FormProps) {
+export function Form() {
   const [formData, setFormData] = useState({
     username: "",
     password: "",
