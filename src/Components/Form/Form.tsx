@@ -3,11 +3,10 @@ import "./login.css";
 import { useState } from "react";
 
 interface FormProps {
-  username: string;
-  password: string;
+  users: [];
 }
 
-export function Form({ username, password }: FormProps) {
+export function Form({ users }: FormProps) {
   const [formData, setFormData] = useState({
     username: "",
     password: "",
