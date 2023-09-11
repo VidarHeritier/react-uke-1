@@ -10,7 +10,7 @@ export function Form() {
 
   const [users, setUsers] = useState([]);
   const [submitted, setSubmitted] = useState(false);
-  const [showWelcome, setShowWelcome] = useState(false);
+  const [user, setShowWelcome] = useState(false);
 
   const handleInputChange = (event) => {
     const { name, value } = event.target;
@@ -48,6 +48,7 @@ export function Form() {
                 name="username"
                 id="user"
                 maxLength={10}
+                autoComplete="off"
                 value={formData.username}
                 onChange={handleInputChange}
               />
