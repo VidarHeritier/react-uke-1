@@ -2,19 +2,20 @@ import "./nav.css";
 import "./login.css";
 import { useState } from "react";
 
-// interface FormProps {
-//   users: [];
-// }
+interface User {
+  username: string;
+  password: string;
+}
 
 export function Form() {
-  const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState<User>({
     username: "",
     password: "",
   });
 
-  const [users, setUsers] = useState([]);
-  const [submitted, setSubmitted] = useState(false);
-  const [setShowWelcome] = useState(false);
+  const [users, setUsers] = useState<User[]>([]); // Assuming users is an array of User objects
+  const [submitted, setSubmitted] = useState<boolean>(false);
+  // const [showWelcome, setShowWelcome] = useState<boolean>(false);
 
   const handleInputChange = (event: React.ChangeEvent<HTMLFormElement>) => {
     const { name, value } = event.target;
