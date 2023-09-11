@@ -4,3 +4,11 @@
   justify-content: left;
   margin-left: 12vw;
 }
+form {
+  display: flex;
+  flex-direction: row;
+}
+.welcome {
+  align-self: center;
+  margin-left: 10vw;
+}

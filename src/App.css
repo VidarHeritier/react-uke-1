@@ -22,7 +22,22 @@ body {
   font-family: Oswald;
   backdrop-filter: blur(3px);
 }
-
+.cart {
+  width: 3vw;
+  height: 2vw;
+}
+.buy {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20vw;
+  margin-top: 4.5vw;
+  height: 3vw;
+  align-items: end;
+}
+.buy h2 {
+  margin-top: -1vw;
+  text-align: center;
+}
 img {
   width: 8vw;
   border: 0.1vw solid black;

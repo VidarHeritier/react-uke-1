@@ -23,7 +23,8 @@ input {
   font-size: 1.5vw;
 }
 .submit {
-  margin-top: 4.5vw;
+  margin-top: 5vw;
+  margin-left: 0.2vw;
   transform: filter 0.2s ease-in-out, scale 0.2s ease-in-out;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
