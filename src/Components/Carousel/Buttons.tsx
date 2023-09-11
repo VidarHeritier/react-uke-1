@@ -1,6 +1,4 @@
 import "./navigate-btns.css";
-import { useState } from "react";
-import { shoeInfo } from "../Shoes";
 
 export function Buttons({ move, setMove, shoeInfo }) {
   const handleLeftClick = () => {
