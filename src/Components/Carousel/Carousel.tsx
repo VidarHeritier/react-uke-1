@@ -6,8 +6,17 @@ import { shoeInfo } from "../Shoes";
 
 import "./navigate-btns.css";
 
+interface ShoeInfo {
+  img: string;
+  shoeName: string;
+  brand: string;
+  description: string;
+  price: string;
+  id: string;
+}
+
 function Carousel() {
-  const [move, setMove] = useState<number>(0);
+  const [move, setMove] = useState(0);
 
   return (
     <>
@@ -20,7 +29,7 @@ function Carousel() {
           transition: "transform 0.3s ease-in-out",
         }}
       >
-        {shoeInfo.map((shoe) => {
+        {shoeInfo.map((shoe: ShoeInfo) => {
           return (
             <div key={shoe.id}>
               <ShoeCards
