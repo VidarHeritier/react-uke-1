@@ -7,12 +7,12 @@ import { shoeInfo } from "../Shoes";
 import "./navigate-btns.css";
 
 interface ShoeInfo {
-  img: string;
-  shoeName: string;
-  brand: string;
-  description: string;
-  price: string;
-  id: string;
+  img?: string;
+  shoeName?: string;
+  brand?: string;
+  description?: string;
+  price?: string;
+  id?: string;
 }
 
 function Carousel() {
