@@ -2,7 +2,12 @@ import "./nav.css";
 import "./login.css";
 import { useState } from "react";
 
-export function Form() {
+interface FormProps {
+  username: string;
+  password: string;
+}
+
+export function Form({ username, password }: FormProps) {
   const [formData, setFormData] = useState({
     username: "",
     password: "",
@@ -10,9 +15,9 @@ export function Form() {
 
   const [users, setUsers] = useState([]);
   const [submitted, setSubmitted] = useState(false);
-  const [user, setShowWelcome] = useState(false);
+  const [setShowWelcome] = useState(false);
 
-  const handleInputChange = (event) => {
+  const handleInputChange = (event: React.ChangeEvent<HTMLFormElement>) => {
     const { name, value } = event.target;
     setFormData({
       ...formData,
@@ -20,7 +25,7 @@ export function Form() {
     });
   };
 
-  const handleSubmit = (event) => {
+  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
 
     setUsers([...users, formData]);

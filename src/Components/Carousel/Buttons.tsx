@@ -4,7 +4,7 @@ export function Buttons({ move, setMove, shoeInfo }) {
   const handleLeftClick = () => {
     const newMove = move - 1;
     if (newMove < 0) {
-      setMove(shoeInfo.length - 1);
+      setMove(shoeInfo.length);
     } else {
       setMove(newMove);
     }
@@ -13,7 +13,7 @@ export function Buttons({ move, setMove, shoeInfo }) {
   const handleRightClick = () => {
     const newMove = move + 1;
     if (newMove < 0) {
-      setMove(shoeInfo.length + 1);
+      setMove(shoeInfo.length);
     } else {
       setMove(newMove);
     }

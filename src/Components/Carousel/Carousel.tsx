@@ -16,7 +16,7 @@ function Carousel() {
       <div
         className="cards"
         style={{
-          transform: `translateX(-${move * 100}%)`,
+          transform: `translateX(-${move * 30}%)`,
           transition: "transform 0.3s ease-in-out",
         }}
       >
