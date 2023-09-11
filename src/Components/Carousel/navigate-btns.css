@@ -4,8 +4,9 @@
 .left-btn {
   position: absolute;
   font-size: 15vw;
-  text-shadow: -3px -3px 5px black;
+  text-shadow: -0.3vw -0.3vw 0.5vw whitesmoke;
   z-index: 5;
+  left: 1vw;
   top: 13vw;
   filter: drop-shadow(black -0.2vw -0.2vw 0.2vw);
   color: rgb(250, 202, 161);
@@ -23,7 +24,7 @@
 .right-btn {
   position: absolute;
   font-size: 15vw;
-  text-shadow: -3px -3px 5px whitesmoke;
+  text-shadow: -0.3vw -0.3vw 0.5vw whitesmoke;
   z-index: 5;
   right: 1vw;
   top: 13vw;

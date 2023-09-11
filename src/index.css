@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  border: none;
+}
+@media screen and (orientation: portrait) {
+  .nav {
+    display: grid;
+    grid-area: 1/4;
+    justify-content: center;
+    margin: 0;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 15vw;
+  }
+  .header img {
+    margin-left: 9vw;
+  }
+  .header h1 {
+    font-size: 3vw;
+    margin-bottom: -1vw;
+  }
+  input {
+    width: 16vw;
+    height: 4vw;
+  }
+  .login {
+    margin-left: -5vw;
+  }
+  .pass h6 {
+    margin-bottom: 0.3vw;
+    font-size: 3vw;
+  }
+  .user h6 {
+    margin-bottom: 0.3vw;
+    font-size: 3vw;
+  }
+  .submit {
+    margin-top: 12vw;
+    margin-left: 1vw;
+  }
+  .left-btn {
+    height: 60vw;
+    top: 45vw;
+  }
+  .right-btn {
+    height: 60vw;
+    top: 45vw;
+  }
+  .buy {
+    position: fixed;
+  }
+  .shoes {
+    width: 35vw;
+    height: 40vw;
+    margin-top: 10vw;
+  }
+  .cards img {
+    width: 16vw;
+    height: 12vw;
+  }
+  .cards h3,
+  h4,
+  h5,
+  h6,
+  p {
+    font-size: 2.5vw;
+  }
+  .counter {
+    width: 12vw;
+    height: 4vw;
+  }
+  .counter p,
+  button {
+    font-size: 4vw;
+  }
+  .minus {
+    font-size: 6vw;
+    margin-top: -1.8vw;
+  }
+}

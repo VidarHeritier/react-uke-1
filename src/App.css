@@ -38,8 +38,10 @@ body {
   margin-top: -1vw;
   text-align: center;
 }
-img {
-  width: 8vw;
+.cards img {
+  width: 12vw;
+  height: 8vw;
+  object-fit: cover;
   border: 0.1vw solid black;
   border-radius: 0.3vw;
   margin-bottom: 1vw;
