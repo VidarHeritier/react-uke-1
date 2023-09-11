@@ -13,7 +13,7 @@ export function Form() {
     password: "",
   });
 
-  const [users, setUsers] = useState<User[]>([]); // Assuming users is an array of User objects
+  const [users, setUsers] = useState<User[]>([]);
   const [submitted, setSubmitted] = useState<boolean>(false);
   // const [showWelcome, setShowWelcome] = useState<boolean>(false);
 
@@ -34,11 +34,11 @@ export function Form() {
       password: "",
     });
     setSubmitted(true);
-    setShowWelcome(true);
+    // setShowWelcome(true);
   };
 
   const handleWelcomeClick = () => {
-    setShowWelcome(false);
+    // setShowWelcome(false);
   };
 
   return (
