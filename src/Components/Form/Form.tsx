@@ -17,7 +17,7 @@ export function Form() {
   const [submitted, setSubmitted] = useState<boolean>(false);
   // const [showWelcome, setShowWelcome] = useState<boolean>(false);
 
-  const handleInputChange = (event: React.ChangeEvent<HTMLFormElement>) => {
+  const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = event.target;
     setFormData({
       ...formData,

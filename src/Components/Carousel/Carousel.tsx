@@ -20,16 +20,16 @@ function Carousel() {
           transition: "transform 0.3s ease-in-out",
         }}
       >
-        {shoeInfo.map((shoeInfo) => {
+        {shoeInfo.map((shoe) => {
           return (
-            <div key={shoeInfo.id}>
+            <div key={shoe.id}>
               <ShoeCards
-                img={shoeInfo.img}
-                brand={shoeInfo.brand}
-                shoeName={shoeInfo.shoeName}
-                description={shoeInfo.description}
-                price={shoeInfo.price}
-                id={shoeInfo.id}
+                img={shoe.img}
+                brand={shoe.brand}
+                shoeName={shoe.shoeName}
+                description={shoe.description}
+                price={shoe.price}
+                id={shoe.id}
               />
               <Counter />
             </div>
