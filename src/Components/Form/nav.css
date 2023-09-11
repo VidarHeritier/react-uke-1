@@ -12,3 +12,7 @@ form {
   align-self: center;
   margin-left: 10vw;
 }
+.welcome h2 {
+  font-size: 2.8vw;
+  width: 25vw;
+}

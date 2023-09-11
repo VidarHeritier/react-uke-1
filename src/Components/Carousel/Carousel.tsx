@@ -7,7 +7,7 @@ import { shoeInfo } from "../Shoes";
 import "./navigate-btns.css";
 
 function Carousel() {
-  const [move, setMove] = useState(0);
+  const [move, setMove] = useState<number>(0);
 
   return (
     <>

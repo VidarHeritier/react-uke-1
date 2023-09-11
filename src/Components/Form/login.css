@@ -32,7 +32,7 @@ input {
   filter: brightness(2);
 }
 .submit:active {
-  scale: 1.3;
+  scale: 1.05;
 }
 .user h6 {
   margin-left: 1.5vw;
