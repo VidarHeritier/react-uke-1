@@ -52,6 +52,9 @@ export function Form() {
                 type="text"
                 name="username"
                 id="user"
+                required
+                pattern=".{3,}"
+                title="You shall not pass! Without a username of at least 3 characters"
                 maxLength={10}
                 autoComplete="off"
                 value={formData.username}
@@ -64,6 +67,9 @@ export function Form() {
                 type="password"
                 name="password"
                 id="pass"
+                required
+                pattern=".{8,}"
+                title="You shall not pass! Without a password of a minimum of 8 characters"
                 maxLength={10}
                 value={formData.password}
                 onChange={handleInputChange}

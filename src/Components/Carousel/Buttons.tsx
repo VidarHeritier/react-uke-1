@@ -3,7 +3,7 @@ import "./navigate-btns.css";
 interface ButtonsProps {
   move: number;
   setMove: React.Dispatch<React.SetStateAction<number>>;
-  shoeInfo: [];
+  shoeInfo: object[];
 }
 
 export function Buttons({ move, setMove, shoeInfo }: ButtonsProps) {
