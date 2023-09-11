@@ -20,7 +20,7 @@ function Carousel() {
 
   return (
     <>
-      <Buttons move={move} setMove={setMove} shoeInfo={shoeInfo} />
+      <Buttons move={move} setMove={setMove} />
 
       <div
         className="cards"
