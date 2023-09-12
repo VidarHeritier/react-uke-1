@@ -17,6 +17,7 @@
 }
 .left-btn:hover {
   transform: scaleX(130%);
+  cursor: pointer;
 }
 .left-btn:active {
   scale: 1.3;
@@ -37,6 +38,7 @@
 }
 .right-btn:hover {
   transform: scaleX(130%);
+  cursor: pointer;
 }
 .right-btn:active {
   scale: 1.05;
