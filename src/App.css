@@ -9,6 +9,7 @@
 body {
   border: none;
   margin: none;
+  height: 100dvh;
   overflow: hidden;
   background-image: linear-gradient(
       rgba(0, 0, 0, 0.871) 0.1%,
