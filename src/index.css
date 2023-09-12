@@ -95,4 +95,24 @@ body {
   .disclaimer {
     margin-top: 10vw;
   }
+  .welcome {
+    align-self: center;
+    margin-left: 15vw;
+  }
+  .welcome h2 {
+    font-size: 5.8vw;
+    width: 45vw;
+  }
+  .buy {
+    position: absolute;
+    top: 8vw;
+    right: 5vw;
+  }
+  .buy h2 {
+    font-size: 3vw;
+  }
+  .cart {
+    width: 8vw;
+    height: 6vw;
+  }
 }
