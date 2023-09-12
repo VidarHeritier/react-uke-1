@@ -3,6 +3,10 @@ body {
   border: none;
 }
 @media screen and (orientation: portrait) {
+  body,
+  html {
+    overflow-x: hidden;
+  }
   .nav {
     display: grid;
     grid-area: 1/4;
@@ -12,19 +16,23 @@ body {
   .header {
     display: flex;
     flex-direction: column;
-    width: 30vw;
-    height: 15vw;
+    width: 40vw;
+    height: 20vw;
   }
   .header img {
     margin-left: 9vw;
   }
   .header h1 {
-    font-size: 3vw;
+    font-size: 3.5vw;
     margin-bottom: -1vw;
   }
+  .header h2 {
+    font-size: 2.5vw;
+  }
   input {
-    width: 16vw;
-    height: 4vw;
+    width: 20vw;
+    height: 5vw;
+    font-size: 3vw;
   }
   .login {
     margin-left: -5vw;
@@ -42,42 +50,49 @@ body {
     margin-left: 1vw;
   }
   .left-btn {
-    height: 60vw;
-    top: 45vw;
+    height: 70vw;
+    top: 59vw;
   }
   .right-btn {
-    height: 60vw;
-    top: 45vw;
+    height: 70vw;
+    top: 59vw;
   }
   .buy {
     position: fixed;
   }
   .shoes {
-    width: 35vw;
-    height: 40vw;
-    margin-top: 10vw;
+    width: 40vw;
+    height: 50vw;
+    margin-top: 15vw;
+  }
+  .shoes p {
+    width: 10vw;
   }
   .cards img {
-    width: 16vw;
-    height: 12vw;
+    width: 20vw;
+    height: 15vw;
   }
   .cards h3,
   h4,
   h5,
   h6,
   p {
-    font-size: 2.5vw;
+    font-size: 3.5vw;
   }
   .counter {
-    width: 12vw;
-    height: 4vw;
+    width: 16vw;
+    height: 6vw;
+    margin-top: 3vw;
   }
   .counter p,
   button {
-    font-size: 4vw;
+    font-size: 5vw;
   }
   .minus {
-    font-size: 6vw;
-    margin-top: -1.8vw;
+    font-size: 8vw;
+    margin-top: -2.2vw;
+  }
+  .disclaimer {
+    margin-top: 10vw;
   }
 }

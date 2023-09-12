@@ -35,7 +35,7 @@ body {
   align-items: end;
 }
 .buy h2 {
-  margin-top: -1vw;
+  margin-top: -0.1vw;
   text-align: center;
 }
 .cards img {
@@ -56,7 +56,7 @@ body {
   margin: 2vw 3vw;
   padding: 1vw 3.5vw;
   filter: drop-shadow(-0.15vw -0.15vw black);
-  box-shadow: -0.1vw -0.1vw black, 1vw 1vw 2vw aliceblue,
+  box-shadow: -0.1vw -0.1vw black, 1vw 1vw 2vw rgba(240, 248, 255, 0.7),
     inset 2vw -2vw 5vw rgba(0, 0, 0, 0.389);
   border-radius: 50vw;
   background-color: rgba(255, 255, 255, 0.213);
@@ -101,16 +101,14 @@ p {
   gap: 2vw;
   margin-left: 10vw;
 }
-.blur {
-  backdrop-filter: blur(300px);
-}
+
 .shoes {
   height: 22vw;
   width: 20vw;
   padding: 3vw;
   margin: 1vw;
   filter: drop-shadow(-0.15vw -0.15vw black);
-  box-shadow: -0.1vw -0.1vw black, 1vw 1vw 2vw aliceblue,
+  box-shadow: -0.1vw -0.1vw black, 1vw 1vw 2vw rgba(240, 248, 255, 0.7),
     inset 2vw -2vw 5vw rgba(0, 0, 0, 0.389);
   border-radius: 1vw;
   background-color: rgba(217, 215, 212, 0.213);

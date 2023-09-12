@@ -13,7 +13,7 @@ button {
   border-right: 0.1vw solid indigo;
   border-bottom: 0.1vw solid indigo;
   filter: drop-shadow(-0.15vw -0.15vw black);
-  box-shadow: -0.1vw -0.1vw black, 1vw 1vw 2vw aliceblue,
+  box-shadow: -0.1vw -0.1vw black, 1vw 1vw 2vw rgba(240, 248, 255, 0.7),
     inset 2vw -2vw 5vw rgba(0, 0, 0, 0.389);
   width: 5vw;
   border-radius: 2vw 55vw;
